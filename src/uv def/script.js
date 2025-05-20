@@ -1,5 +1,5 @@
 var modify = true;
-    var timeleft = 0;
+    var timeleft = 5;
 
     const timer = document.getElementById('timer');
   
@@ -106,7 +106,7 @@ var modify = true;
         
             modify = false;
             
-            countDown(30);
+            countDown(timeleft);
           
           } else {
 
